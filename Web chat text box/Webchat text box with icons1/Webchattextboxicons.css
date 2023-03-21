@@ -1,0 +1,186 @@
+
+.buttonCam {
+  position: center;
+  margin-left: 180px;
+  z-index: 1;
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #5cb6f9;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.buttonCam:hover {
+  background: #2509f9;
+}
+
+.buttonCam:active {
+  background: #1c11eb;
+}
+
+.buttonCam__text,
+.buttonCam__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.buttonCam__icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.buttonPic {
+  margin-top: -50px;
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #5cb6f9;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .buttonPic:hover {
+    background: #2509f9;
+  }
+  
+  .buttonPic:active {
+    background: #1c11eb;
+  }
+  
+  .buttonPic__text,
+  .buttonPic__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .buttonPic__icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+  }
+  
+  .buttonMic {
+    display: flex;
+    position: center;
+    margin-left: 365px;
+    margin-top: -50px;
+    height: 50px;
+    padding: 0;
+    background: #5cb6f9;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .buttonMic:hover {
+    background: #2509f9;
+  }
+
+  .buttonMic:active {
+    background: #1c11eb;
+  }
+  
+  .buttonMic__text,
+  .buttonMic__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .buttonMic__icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+  }
+
+  .buttonSend {
+    position: center;
+    margin-left: 580px;
+    margin-top: -50px;
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #5cb6f9;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    
+
+    
+  }
+  
+  .buttonSend:hover {
+    background: #2509f9;
+  }
+  
+  .buttonSend:active {
+    background: #1c11eb;
+  }
+  
+  .buttonSend__text,
+  .buttonSend__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .buttonSend__icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+  }
+
+
+  .message-box {
+    flex: 0 1 42px;
+    width: 750px;
+    height: 250px;
+    background: #5cb6f9; 
+    position: relative;
+    z-index: 3; }
+
+    .message-input {
+      margin-left: 7.5px;
+      width: 730px;
+      height: 187px;
+      opacity: 0.3;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      color: #1c11eb;
+      font-size: 20px;
+
+
+    
+  
+
+  

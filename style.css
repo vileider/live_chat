@@ -1,0 +1,64 @@
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 56px;
+ }
+ h2{
+    font-family: 'Montserrat';
+    font-size: 45px;
+ }
+ h3{
+    font-family: 'Montserrat';
+    font-size: 35px;
+ }
+ h4{
+    font-family: 'Montserrat';
+    font-size: 25px;
+ }
+
+ h4{
+    font-family: 'Montserrat';
+    font-size: 12px;
+ }
+ 
+ p{
+    font-family: 'Lato';
+    font-size: 12px;
+ }
+.chat{
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+ #palette_colour1{
+    background: #050A30;
+    position: relative;
+}
+
+#palette_colour2{
+    background: #233DFF;
+    position: relative;
+}
+#palette_colour3{
+    background: #2509F9;
+    position: relative;
+}
+#palette_colour4{
+    background: #5CB6F9;
+    position: relative;
+}
+#palette_colour5{
+    background: #1C11EB;
+    position: relative;
+}
+#palette_colour6{
+    background: #FFFFFF;
+    position: relative;
+}
+#palette_colour8{
+    background: #5CF967;
+    position: relative;
+} 
+#palette_colour8{
+    background: #D8DBE4;
+    position: relative;
+} 

@@ -1,0 +1,47 @@
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 85vh;
+}
+
+.left_bar {
+    display: flex;
+    height: 100% ;
+    width: 25%;
+    border-right: 5px solid #5CB6F9;
+}
+.chat_header {
+    display: flex;
+    height: 15vh;
+    border-bottom: 5px solid #5CB6F9;
+}
+.chat_area {
+    display: flex;
+    height:100% ;
+    width: 100%;
+    flex-direction: column;
+}
+.message_display {
+    
+    height: 70%;
+    width: 100%;
+    border-bottom: 5px solid #5CB6F9;
+    font-size: 30px;
+}
+.typed_message {
+    display: flex;
+      height: 30%;
+      width: 100%;
+}
+.settings {
+    display: flex;
+    height: 100% ;
+    width: 25%;
+    border-left: 5px solid #5CB6F9;
+}

@@ -1,0 +1,57 @@
+
+.light_mode {
+    background-color: white;
+}
+.dark_mode{
+    background-color: #222222;    
+    color: blue;
+}
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 85vh;
+}
+
+.left_bar {
+    display: flex;
+    height: 100% ;
+    width: 30%;
+    border: 5px outset #DCDCDC;
+    border-width: thin;
+}
+.chat_header {
+    display: flex;
+    height: 15vh;
+    border: 5px solid #DCDCDC;
+}
+.chat_area {
+    display: flex;
+    height:100% ;
+    width: 50%;
+    flex-direction: column;
+    border: 5px solid #DCDCDC;
+}
+.message_display {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    border: 5px solid #DCDCDC;
+}
+.typed_message {
+    display: flex;
+      height: 30%;
+      width: 100%;
+      border: 5px solid #DCDCDC;
+}
+.settings {
+    display: flex;
+    height: 100% ;
+    width: 20%;
+    border: 5px inset #DCDCDC;
+}

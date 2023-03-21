@@ -1,0 +1,86 @@
+header {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 2;
+  }
+  .left {
+    width: 15%;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    flex: initial;
+  }
+  .middle {
+    width:70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    flex: auto;
+    flex-shrink: 2;
+  }
+  .right {
+    min-width: 150px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    flex: initial;
+  }
+  
+  button {
+    font-family: 'Montserrat';
+    font-size: 12px;
+  }
+  button {
+    text-align: center;
+    color: #233dff;
+    font-family: 'Montserrat';
+    font-size: 12px;
+  }
+  .otherUserFlex {
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+  }
+  .otherUsers {
+    background-color: #5cb6f9;
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .otherUsers {
+      height: 25px;
+      width: 25px;
+    }
+  }
+  
+  form.searchBar input[type='text'] {
+    font-size: 12px;
+    background: #d8dbe4;
+  }
+  
+  .user {
+    background-color: #5cb6f9;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  @media only screen and (max-width: 600px) {
+    .User {
+      height: 25px;
+      width: 25px;
+    }
+  }
+  img {
+    width: 80px;
+    height: 80px;
+  }
